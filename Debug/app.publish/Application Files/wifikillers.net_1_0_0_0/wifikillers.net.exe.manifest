@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="wifikillers.net.exe" version="1.0.0.0" publicKeyToken="4cfc2e875fca153d" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="81944.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="wifikillers.net" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="wifikillers.net.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="wifikillers.net.exe" size="12696">
+      <assemblyIdentity name="wifikillers.net" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2MiH3zKH6WiwrWsLb8K2uv8zYmnXP7BYHW3Ps2ZM1Og=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="81944.ico" size="5873">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AKnBTpia1qCvb+uTs8z6rq2pA54NHJ8oiJOo7e5ood4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="wifikillers.net.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=pc122\MAT" issuerKeyHash="c8df0119d7e2c45cbd4e728d9cdcb4f0e04f510e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Vv7EwITFnuLZ02OTQ7Bj+ViXTfNgK9A/DAxCtgBhcJo=</DigestValue></Reference></SignedInfo><SignatureValue>kDXu57b2mLFOTxU5Q/r75g43XKyJBYJQVHLHedRGI5kAqqCQobFKghT4vkllOUg7dvJ8tyDRJoPb/1vbICLqkHW9pnd03Kebwj+ZWjyrC00jCah2XQmxxW7APGfliDuXqeUqss7+qXHA4QWPN5npVWn4h3eLrqt9kUb76AnLrQQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ky26NpuWBADi0BsZzGk8KJHQrPTYGySu2X/dymmJDadUXpLNnIpmaVsljMhipBhFoTqoypcUg6cCcrXhefCNEFE7XOB1jaiTvjUyk78DeWei0uGUYr7+vJWNHo3AUg+pS9eyDwUENaq8TrGfJ0SXNu3mx8HLlFfyf+rxjbVBseE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9a706100b6420c0c3fd02b60f34d9758f963b0439363d3d9e29ec584c0c4fe56" Description="" Url=""><as:assemblyIdentity name="wifikillers.net.exe" version="1.0.0.0" publicKeyToken="4cfc2e875fca153d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=pc122\MAT</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PHM+1qmdGwt1Y78hbFPoatZpCYP2ucELTpK/YuvKZ+o=</DigestValue></Reference></SignedInfo><SignatureValue>fcntJyiLTFPPFCvXYCrWHdUZDxT626dolIK8z3GmefhBB/+sTZNzFY+5PIZtAv5Tq54ODi/jldxK/PNDK4kGWUVSUXuNEPC+4d5AFxKNdNMewIItJtHg3RufKWHqzXiUKhDK3pXo3bmi6wPJE//RGEKqkQHpuaxuO+dyc8eyMF0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ky26NpuWBADi0BsZzGk8KJHQrPTYGySu2X/dymmJDadUXpLNnIpmaVsljMhipBhFoTqoypcUg6cCcrXhefCNEFE7XOB1jaiTvjUyk78DeWei0uGUYr7+vJWNHo3AUg+pS9eyDwUENaq8TrGfJ0SXNu3mx8HLlFfyf+rxjbVBseE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQfDOgOSybg5JMYyzPn4UUKjANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIAcABjADEAMgAyAFwATQBBAFQwHhcNMjUwMzE4MTMyNTMwWhcNMjYwMzE4MTkyNTMwWjAdMRswGQYDVQQDHhIAcABjADEAMgAyAFwATQBBAFQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJMtujablgQA4tAbGcxpPCiR0Kz02Bskrtl/3cppiQ2nVF6SzZyKZmlbJYzIYqQYRaE6qMqXFIOnAnK14XnwjRBRO1zgdY2ok741MpO/A3lnotLhlGK+/ryVjR6NwFIPqUvXsg8FBDWqvE6xnydElzbt5sfBy5RX8n/q8Y21QbHhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAZop55S7qT2jIr6A78TkJ5bVaaBOs3cPHeFwEAwVV30fimbMz9c8CkAgUKj4sg2qaz1aZCJgR6lgunJdI3/83uamCc+SKZb4AE60GcsVrGWFveQQJ9BGHXVeP83FxViq0GTo9WoQZa/4FrWV4KjMGSRj575wt4sgklMluOrjeCxY=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
